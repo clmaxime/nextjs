@@ -1,3 +1,5 @@
+'use client';
+
 import {
   UserGroupIcon,
   HomeIcon,
@@ -8,7 +10,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
-'use client';
 
 
 // Map of links to display in the side navigation.
